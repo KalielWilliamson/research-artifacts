@@ -1,0 +1,625 @@
+citations:
+  - citation_id: CIT_MARL_SURVEY_2022
+    bibkey: gronauer2022multiagent
+    full: >-
+      Gronauer, S. and Diepold, K. (2022). Multi-agent deep reinforcement learning: a survey.
+      Artificial Intelligence Review.
+    doi: 10.1007/s10462-021-09996-w
+    url: https://doi.org/10.1007/s10462-021-09996-w
+    notes: >
+      Survey emphasizing credit assignment and attribution as persistent challenges in
+      temporally extended multi-agent decision settings.
+  - citation_id: CIT_OPEN_CAP_2025
+    bibkey: abadi2025challengescreditassignmentmultiagent
+    full: >-
+      Abadi, A. S. and Soh, L.-K. (2025). Challenges in Credit Assignment for Multi-Agent
+      Reinforcement Learning in Open Agent Systems. arXiv.
+    arxiv_id: 2510.27659
+    url: https://arxiv.org/abs/2510.27659
+    notes: >
+      Highlights that openness (agent/task/type churn) exacerbates non-stationarity and makes
+      credit assignment ambiguous.
+  - citation_id: CIT_RAG_2020
+    bibkey: lewis2020rag
+    full: >-
+      Lewis, P. et al. (2020). Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.
+      NeurIPS.
+    arxiv_id: 2005.11401
+    url: https://arxiv.org/abs/2005.11401
+    notes: >
+      Demonstrates retrieval-augmented generation as a standard approach for improving factual
+      recall under knowledge constraints.
+  - citation_id: CIT_DPR_2020
+    bibkey: karpukhin2020dpr
+    full: >-
+      Karpukhin, V. et al. (2020). Dense Passage Retrieval for Open-Domain Question Answering.
+      EMNLP.
+    arxiv_id: 2004.04906
+    url: https://arxiv.org/abs/2004.04906
+    notes: >
+      Canonical dense retrieval baseline; motivates vector-based memory tiers.
+  - citation_id: CIT_FAISS_2017
+    bibkey: johnson2017faiss
+    full: >-
+      Johnson, J., Douze, M., and Jegou, H. (2017). Billion-scale similarity search with GPUs.
+      arXiv.
+    arxiv_id: 1702.08734
+    url: https://arxiv.org/abs/1702.08734
+    notes: >
+      Efficient similarity search infrastructure underpinning vector recall.
+  - citation_id: CIT_RAG_SURVEY_2024
+    bibkey: gao2024ragsurvey
+    full: >-
+      Gao, Y. et al. (2024). Retrieval-Augmented Generation for Large Language Models: A Survey.
+      arXiv.
+    arxiv_id: 2312.10997
+    url: https://arxiv.org/abs/2312.10997
+    notes: >
+      Modern taxonomy of RAG components and evaluation practices.
+  - citation_id: CIT_RATG_SURVEY_2022
+    bibkey: li2022retrievalsurvey
+    full: >-
+      Li, J. et al. (2022). A Survey on Retrieval-Augmented Text Generation.
+      arXiv.
+    arxiv_id: 2202.01110
+    url: https://arxiv.org/abs/2202.01110
+    notes: >
+      Broad framing of retrieve-then-generate systems.
+  - citation_id: CIT_MEMGPT_2023
+    bibkey: packer2023memgpt
+    full: >-
+      Packer, C. et al. (2023). MemGPT: Towards LLMs as Operating Systems.
+      arXiv.
+    arxiv_id: 2310.08560
+    url: https://arxiv.org/abs/2310.08560
+    notes: >
+      Explicit tiered memory design for LLM agents.
+  - citation_id: CIT_GRAPHRAG_SURVEY_2024
+    bibkey: peng2024graphrag
+    full: >-
+      Peng, B. et al. (2024). Graph Retrieval-Augmented Generation: A Survey.
+      arXiv.
+    arxiv_id: 2408.08921
+    url: https://arxiv.org/abs/2408.08921
+    notes: >
+      Survey of GraphRAG pipelines and evaluation.
+  - citation_id: CIT_RALLM_SURVEY_2024
+    bibkey: fan2024rallm
+    full: >-
+      Fan, H. et al. (2024). A Survey on RAG Meeting LLMs (RA-LLMs).
+      ACM.
+    doi: 10.1145/3637528.3671470
+    url: https://dl.acm.org/doi/10.1145/3637528.3671470
+    notes: >
+      Retrieval augmentation landscape and positioning for LLM systems.
+  - citation_id: CIT_GRAG_2025
+    bibkey: hu2025grag
+    full: >-
+      Hu, X. et al. (2025). GRAG: Graph Retrieval-Augmented Generation.
+      NAACL Findings.
+    url: https://aclanthology.org/2025.findings-naacl.232/
+    notes: >
+      Concrete graph-augmented retrieval system.
+  - citation_id: CIT_SUMMARY_FAITH_2020
+    bibkey: maynez2020faithfulness
+    full: >-
+      Maynez, J. et al. (2020). On Faithfulness and Factuality in Abstractive Summarization.
+      ACL.
+    url: https://aclanthology.org/2020.acl-main.173/
+    notes: >
+      Summaries can be unfaithful/hallucinated, motivating drift boundaries.
+  - citation_id: CIT_LOST_MIDDLE_2023
+    bibkey: liu2023lostmiddle
+    full: >-
+      Liu, N. F. et al. (2023). Lost in the Middle: How Language Models Use Long Contexts.
+      arXiv.
+    arxiv_id: 2307.03172
+    url: https://arxiv.org/abs/2307.03172
+    notes: >
+      Long-context models underuse mid-context information, motivating retrieval tiers.
+  - citation_id: CIT_HALLUCINATION_SURVEY_2023
+    bibkey: huang2023hallucination
+    full: >-
+      Huang, L. et al. (2023). A Survey on Hallucination in Large Language Models.
+      arXiv.
+    arxiv_id: 2311.05232
+    url: https://arxiv.org/abs/2311.05232
+    notes: >
+      Hallucination taxonomy and mitigation landscape.
+  - citation_id: CIT_EVENT_SOURCING_2005
+    bibkey: fowler2005eventsourcing
+    full: >-
+      Fowler, M. (2005). Event Sourcing. martinFowler.com.
+    url: https://martinfowler.com/eaaDev/EventSourcing.html
+    notes: >
+      Event sourcing as a state-reconstruction and replay abstraction.
+  - citation_id: CIT_LOG_ABSTRACTION_2013
+    bibkey: kreps2013log
+    full: >-
+      Kreps, J. (2013). The Log: What every software engineer should know about real-time data's
+      unifying abstraction. LinkedIn Engineering.
+    url: https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying
+    notes: >
+      Log as a unifying abstraction for systems; motivates replayability.
+  - citation_id: CIT_KAFKA_2011
+    bibkey: kreps2011kafka
+    full: >-
+      Kreps, J., Narkhede, N., and Rao, J. (2011). Kafka: a Distributed Messaging System for
+      Log Processing.
+    url: https://notes.stephenholiday.com/Kafka.pdf
+    notes: >
+      Log-centric messaging infrastructure enabling scalable event pipelines.
+  - citation_id: CIT_MS_EVENT_SOURCING
+    bibkey: microsoft2023eventsourcing
+    full: >-
+      Microsoft. Event Sourcing pattern. Azure Architecture Center.
+    url: https://learn.microsoft.com/en-us/azure/architecture/patterns/event-sourcing
+    notes: >
+      Industry patternization of event sourcing.
+  - citation_id: CIT_DAPPER_2010
+    bibkey: sigelman2010dapper
+    full: >-
+      Sigelman, B. et al. (2010). Dapper, a Large-Scale Distributed Systems Tracing Infrastructure.
+      Google.
+    url: https://research.google.com/archive/papers/dapper-2010-1.pdf
+    notes: >
+      Canonical distributed tracing system for correlating events across services.
+  - citation_id: CIT_TRACE_CONTEXT_2021
+    bibkey: w3c2021tracecontext
+    full: >-
+      W3C. Trace Context (Recommendation). 2021.
+    url: https://www.w3.org/TR/trace-context/
+    notes: >
+      Standardized trace propagation headers.
+  - citation_id: CIT_OTEL_CONTEXT
+    bibkey: opentelemetry2024context
+    full: >-
+      OpenTelemetry. Context Propagation. 2024.
+    url: https://opentelemetry.io/docs/concepts/context-propagation/
+    notes: >
+      Standard guidance for cross-service context propagation.
+  - citation_id: CIT_OTEL_TRACE_API
+    bibkey: opentelemetry2024traceapi
+    full: >-
+      OpenTelemetry. Trace API Specification. 2024.
+    url: https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/trace/api.md
+    notes: >
+      Normative trace API specification for observability systems.
+  - citation_id: CIT_SRE_MONITORING
+    bibkey: googleSRE2016monitoring
+    full: >-
+      Google. Monitoring Distributed Systems. In SRE Book. 2016.
+    url: https://sre.google/sre-book/monitoring-distributed-systems/
+    notes: >
+      Monitoring principles for reliability and alerting.
+  - citation_id: CIT_TAIL_AT_SCALE_2013
+    bibkey: dean2013tail
+    full: >-
+      Dean, J. and Barroso, L. A. (2013). The Tail at Scale.
+      Communications of the ACM.
+    doi: 10.1145/2408776.2408794
+    url: https://dl.acm.org/doi/10.1145/2408776.2408794
+    notes: >
+      Tail latency dominates user-facing reliability metrics.
+  - citation_id: CIT_CHAOS_2017
+    bibkey: basiri2017chaos
+    full: >-
+      Basiri, A. et al. (2017). Chaos Engineering.
+      arXiv.
+    arxiv_id: 1702.05843
+    url: https://arxiv.org/abs/1702.05843
+    notes: >
+      Fault-injection methodology for system resilience.
+  - citation_id: CIT_LAMPORT_1978
+    bibkey: lamport1978clocks
+    full: >-
+      Lamport, L. (1978). Time, Clocks, and the Ordering of Events in a Distributed System.
+      Communications of the ACM.
+    doi: 10.1145/359545.359563
+    url: https://doi.org/10.1145/359545.359563
+    notes: >
+      Foundational treatment of logical time and causal ordering for distributed events.
+  - citation_id: CIT_SCALING_2025
+    bibkey: kim2025sciencescalingagentsystems
+    full: >-
+      Kim, Y. et al. (2025). Towards a Science of Scaling Agent Systems. arXiv.
+    arxiv_id: 2512.08296
+    url: https://arxiv.org/abs/2512.08296
+    notes: >
+      Scaling study connecting coordination topology with task regimes.
+
+claims:
+  - claim_id: C1
+    status: supported
+    claim_role: empirical_claim
+    claim_text: >
+      Tiered memory improves recall and faithfulness under fixed token budgets relative to
+      stateless baselines (Table A1; Fig. accuracy_by_tier), with accuracy rising from 0.000
+      (no-memory) to 0.556 (summary) and 1.000 (vector/graph/hybrid) while drift drops from
+      1.000 to 0.000.
+    claim_type: empirical
+    paper_sections:
+      - Abstract
+      - Results: Suite A
+    evidence:
+      - type: result
+        ref: table:A1
+        description: Accuracy and drift deltas across memory tiers.
+      - type: figure
+        ref: fig:accuracy_by_tier
+        description: Suite A accuracy by memory tier.
+    assumptions:
+      - Synthetic tasks capture long-horizon recall behavior under token budgets.
+    boundaries:
+      - Summary compression improves recall but does not eliminate drift.
+    failure_modes:
+      - Incorrect summaries pollute downstream recall.
+  - claim_id: C2
+    status: supported
+    claim_role: empirical_claim
+    claim_text: >
+      Under fault injection, throughput decreases while p95 latency remains bounded, indicating
+      graceful degradation rather than collapse (Table B1; Fig. latency_summary).
+    claim_type: empirical
+    paper_sections:
+      - Abstract
+      - Results: Suite B
+    evidence:
+      - type: result
+        ref: table:B1
+        description: Suite B latency and throughput metrics under faults.
+      - type: figure
+        ref: fig:latency_summary
+        description: Latency summary under fault scenarios.
+    assumptions:
+      - Failure injections represent production-relevant stressors.
+    boundaries:
+      - Throughput degrades under heavy faults.
+  - claim_id: C3
+    status: supported
+    claim_role: empirical_claim
+    claim_text: >
+      Trace replay succeeds for all measured runs (completion.hash match rate 1.000; 45/45),
+      demonstrating deterministic replay under the stubbed model configuration.
+    claim_type: empirical
+    paper_sections:
+      - Abstract
+      - Results: Suite C
+    evidence:
+      - type: result
+        ref: table:C1
+        description: Completion hash match rate across replay runs.
+    assumptions:
+      - Stubbed model determinism is representative of trace replay reliability.
+    boundaries:
+      - Real model outputs may vary while trace artifacts remain equivalent.
+  - claim_id: C4
+    status: supported
+    claim_role: thesis_claim
+    claim_subtype: architectural
+    claim_text: >
+      Treating agent execution as event-structured runs with tiered memory and replayable traces
+      is a useful systems abstraction for building observable, reproducible, and robust
+      conversational agents.
+    claim_type: background
+    paper_sections:
+      - Abstract
+      - Introduction: Thesis
+    supported_by:
+      - C1
+      - C2
+      - C3
+    assumptions:
+      - Event-structured traces capture the key system behaviors needed for analysis.
+    boundaries:
+      - The abstraction is scoped to systems with explicit IO and memory interfaces.
+    failure_modes:
+      - Hidden state outside the event trace can undermine reproducibility.
+  - claim_id: C5
+    status: supported
+    claim_role: prior_art_claim
+    claim_text: >
+      Agent-system performance depends on coordination topology and task regime, with different
+      coordination structures excelling under different workloads.
+    claim_type: background
+    paper_sections:
+      - Background and Related Work
+    citations:
+      - bibkey: kim2025sciencescalingagentsystems
+        verified: true
+    evidence:
+      - type: citation
+        ref: CIT_SCALING_2025
+        description: Scaling study linking coordination topology to task regimes.
+    assumptions:
+      - Coordination metrics reflect meaningful task constraints across regimes.
+    boundaries:
+      - Findings are scoped to the evaluated benchmark suites and model families.
+  - claim_id: C6
+    status: supported
+    claim_role: derived_claim
+    claim_subtype: positioning
+    claim_text: >
+      Execution topology governs how agent coordination can be operated, measured, and trusted,
+      placing constraints on which agent topologies remain viable under reliability and
+      observability requirements.
+    claim_type: background
+    paper_sections:
+      - Discussion
+    derived_from:
+      - C4
+      - C5
+  - claim_id: PA1
+    status: supported
+    claim_role: prior_art_claim
+    claim_text: >
+      Credit assignment remains a core challenge in temporally extended multi-agent decision
+      settings, and surveys identify it as central and unresolved.
+    claim_type: background
+    paper_sections:
+      - Background and Related Work
+      - Discussion
+    citations:
+      - bibkey: gronauer2022multiagent
+        verified: true
+    evidence:
+      - type: citation
+        ref: CIT_MARL_SURVEY_2022
+        description: Survey framing credit assignment as a persistent challenge.
+  - claim_id: PA2
+    status: supported
+    claim_role: prior_art_claim
+    claim_text: >
+      Open-agent settings (agent/task/type churn) amplify credit assignment ambiguity through
+      non-stationarity and shifting participation.
+    claim_type: background
+    paper_sections:
+      - Background and Related Work
+      - Discussion
+    citations:
+      - bibkey: abadi2025challengescreditassignmentmultiagent
+        verified: true
+    evidence:
+      - type: citation
+        ref: CIT_OPEN_CAP_2025
+        description: Open-system analysis showing credit assignment degrades under churn.
+  - claim_id: D1
+    status: supported
+    claim_role: derived_claim
+    claim_subtype: implication
+    claim_text: >
+      Credit assignment is well-posed only when actions are sequentially dependent or centrally
+      orchestrated and execution is causally attributable; those regimes align with where
+      event-structured execution provides the most operational value. Therefore, replayable
+      event traces are a prerequisite for rigorous credit-assignment analysis in the regimes
+      where such analysis is meaningful.
+    claim_type: background
+    paper_sections:
+      - Discussion
+    derived_from:
+      - C4
+      - C2
+      - C3
+      - PA1
+      - PA2
+    boundaries:
+      - We do not evaluate learning, RL, or reward optimization in this paper.
+      - We do not claim event-oriented execution dominates all agent topologies; applicability is domain-contingent.
+      - In highly decentralized or emergent regimes, attribution may remain ill-posed even with event logs.
+  - claim_id: PA3
+    status: supported
+    claim_role: prior_art_claim
+    claim_text: >
+      Retrieval-augmented generation and dense retrieval are standard approaches for improving
+      factual recall under token and knowledge constraints, and they motivate external memory tiers.
+    claim_type: background
+    paper_sections:
+      - Background and Related Work
+    citations:
+      - bibkey: lewis2020rag
+        verified: true
+      - bibkey: karpukhin2020dpr
+        verified: true
+      - bibkey: gao2024ragsurvey
+        verified: true
+      - bibkey: li2022retrievalsurvey
+        verified: true
+      - bibkey: packer2023memgpt
+        verified: true
+    evidence:
+      - type: citation
+        ref: CIT_RAG_2020
+        description: Retrieval-augmented generation baseline.
+      - type: citation
+        ref: CIT_DPR_2020
+        description: Dense retrieval for open-domain QA.
+      - type: citation
+        ref: CIT_RAG_SURVEY_2024
+        description: RAG taxonomy and evaluation survey.
+      - type: citation
+        ref: CIT_RATG_SURVEY_2022
+        description: Retrieval-augmented text generation survey.
+      - type: citation
+        ref: CIT_MEMGPT_2023
+        description: Tiered memory design for LLM agents.
+  - claim_id: PA4
+    status: supported
+    claim_role: prior_art_claim
+    claim_text: >
+      Scalable vector search infrastructure enables practical dense retrieval for memory tiers.
+    claim_type: background
+    paper_sections:
+      - Background and Related Work
+    citations:
+      - bibkey: johnson2017faiss
+        verified: true
+    evidence:
+      - type: citation
+        ref: CIT_FAISS_2017
+        description: Efficient similarity search infrastructure.
+  - claim_id: PA5
+    status: supported
+    claim_role: prior_art_claim
+    claim_text: >
+      Graph-based retrieval is a standard extension of RAG pipelines and supports structured recall.
+    claim_type: background
+    paper_sections:
+      - Background and Related Work
+    citations:
+      - bibkey: peng2024graphrag
+        verified: true
+      - bibkey: fan2024rallm
+        verified: true
+      - bibkey: hu2025grag
+        verified: true
+    evidence:
+      - type: citation
+        ref: CIT_GRAPHRAG_SURVEY_2024
+        description: GraphRAG survey and pipelines.
+      - type: citation
+        ref: CIT_RALLM_SURVEY_2024
+        description: RAG+LLM survey.
+      - type: citation
+        ref: CIT_GRAG_2025
+        description: Graph retrieval-augmented generation instance.
+  - claim_id: PA6
+    status: supported
+    claim_role: prior_art_claim
+    claim_text: >
+      Summarization and long-context processing introduce factual drift and hallucination risks,
+      motivating explicit memory tier boundaries.
+    claim_type: background
+    paper_sections:
+      - Background and Related Work
+      - Limitations
+    citations:
+      - bibkey: maynez2020faithfulness
+        verified: true
+      - bibkey: liu2023lostmiddle
+        verified: true
+      - bibkey: huang2023hallucination
+        verified: true
+    evidence:
+      - type: citation
+        ref: CIT_SUMMARY_FAITH_2020
+        description: Summarization factuality concerns.
+      - type: citation
+        ref: CIT_LOST_MIDDLE_2023
+        description: Long-context retrieval failures.
+      - type: citation
+        ref: CIT_HALLUCINATION_SURVEY_2023
+        description: Hallucination taxonomy and mitigation survey.
+  - claim_id: PA7
+    status: supported
+    claim_role: prior_art_claim
+    claim_text: >
+      Event logs and event sourcing support reconstructability and replay as established systems
+      patterns for stateful services.
+    claim_type: background
+    paper_sections:
+      - Background and Related Work
+    citations:
+      - bibkey: fowler2005eventsourcing
+        verified: true
+      - bibkey: kreps2013log
+        verified: true
+      - bibkey: kreps2011kafka
+        verified: true
+      - bibkey: microsoft2023eventsourcing
+        verified: true
+    evidence:
+      - type: citation
+        ref: CIT_EVENT_SOURCING_2005
+        description: Event sourcing pattern.
+      - type: citation
+        ref: CIT_LOG_ABSTRACTION_2013
+        description: Log abstraction for systems.
+      - type: citation
+        ref: CIT_KAFKA_2011
+        description: Log-based messaging infrastructure.
+      - type: citation
+        ref: CIT_MS_EVENT_SOURCING
+        description: Industry event sourcing pattern.
+  - claim_id: PA8
+    status: supported
+    claim_role: prior_art_claim
+    claim_text: >
+      Distributed tracing and context propagation are standard requirements for correlating
+      events across services in reliable systems.
+    claim_type: background
+    paper_sections:
+      - Background and Related Work
+    citations:
+      - bibkey: sigelman2010dapper
+        verified: true
+      - bibkey: w3c2021tracecontext
+        verified: true
+      - bibkey: opentelemetry2024context
+        verified: true
+      - bibkey: opentelemetry2024traceapi
+        verified: true
+      - bibkey: googleSRE2016monitoring
+        verified: true
+    evidence:
+      - type: citation
+        ref: CIT_DAPPER_2010
+        description: Tracing infrastructure.
+      - type: citation
+        ref: CIT_TRACE_CONTEXT_2021
+        description: Trace context standard.
+      - type: citation
+        ref: CIT_OTEL_CONTEXT
+        description: Context propagation guidance.
+      - type: citation
+        ref: CIT_OTEL_TRACE_API
+        description: Trace API specification.
+      - type: citation
+        ref: CIT_SRE_MONITORING
+        description: Monitoring principles.
+  - claim_id: PA9
+    status: supported
+    claim_role: prior_art_claim
+    claim_text: >
+      Tail latency percentiles dominate user-visible reliability in large-scale systems.
+    claim_type: background
+    paper_sections:
+      - Background and Related Work
+    citations:
+      - bibkey: dean2013tail
+        verified: true
+    evidence:
+      - type: citation
+        ref: CIT_TAIL_AT_SCALE_2013
+        description: Tail latency in large-scale services.
+  - claim_id: PA10
+    status: supported
+    claim_role: prior_art_claim
+    claim_text: >
+      Fault injection and chaos engineering are established methodologies for evaluating system resilience.
+    claim_type: background
+    paper_sections:
+      - Background and Related Work
+    citations:
+      - bibkey: basiri2017chaos
+        verified: true
+    evidence:
+      - type: citation
+        ref: CIT_CHAOS_2017
+        description: Chaos engineering principles.
+  - claim_id: PA12
+    status: supported
+    claim_role: prior_art_claim
+    claim_text: >
+      Logical clocks and causal ordering provide a mathematical foundation for attributing
+      distributed events in event-oriented systems.
+    claim_type: background
+    paper_sections:
+      - Background and Related Work
+      - Discussion
+    citations:
+      - bibkey: lamport1978clocks
+        verified: true
+    evidence:
+      - type: citation
+        ref: CIT_LAMPORT_1978
+        description: Logical time and event ordering in distributed systems.

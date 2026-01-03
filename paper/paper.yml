@@ -1,0 +1,15 @@
+title: "Event-Driven Agentic Memory: Observable, Replayable Agent Architectures"
+authors:
+  - Kaliel Williamson
+template: research/templates/acmart/paper.tex
+claims: claims.yml
+provenance: provenance.yml
+sections:
+  - intro.md
+  - background.md
+  - methods.md
+  - experiments.md
+  - results.md
+  - discussion.md
+  - limitations.md
+  - conclusion.md
